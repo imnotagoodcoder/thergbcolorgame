@@ -1,0 +1,70 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: large;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.3s;
+}
+
+#colourdisplay{
+    font-size: 200%;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1{
+    font-weight: normal;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+    margin: 0;
+    background: steelblue;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    color: white;
+    background: steelblue;
+}
+
+button{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
